@@ -30,7 +30,7 @@ const Footer = () => {
       >
         {isDark ? `Light` : `Dark`}
       </button>
-      Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+      Copyright &copy; {new Date().getFullYear()}. All rights reserved. @MR_v01
       <br />
       <Flex
         sx={{
