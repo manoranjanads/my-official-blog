@@ -10,7 +10,7 @@ module.exports = {
     siteTitleAlt: `ManoRanjana - Works for a vision`,
     title: `ManoRanjana`,
     siteUrl: `https://manoranjana.me`,
-    sitedescription: `Welcome to the official website of Manoranjana De Silva. This is the v0.1 release of the web application. More expereiences will be brought in the near future.`,
+    siteDescription: `Welcome to the official website of Manoranjana De Silva. This is the v0.1 release of the web application. More expereiences will be brought in the near future.`,
     siteLanguage: `en-us`
   },
   plugins: [
