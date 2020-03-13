@@ -44,14 +44,22 @@ const Footer = () => {
       >
         {/* <img width="30" height="30" src="https://img.lekoarts.de/gatsby/logo_w30.png" alt="LekoArts Logo" /> */}
         {` `}
-
         <Styled.a
           aria-label="Details"
           sx={{ ml: 0 }}
-          href="https://ieee.org"
+          href="http://nsbm.ac.lk"
           target="_blank"
         >
-          IEEE
+          NSBM
+        </Styled.a>
+        <div sx={{ mx: 2 }}> |</div>
+        <Styled.a
+          aria-label="Details"
+          sx={{ ml: 0 }}
+          href="http://www.ucd.ie"
+          target="_blank"
+        >
+          UCD
         </Styled.a>
         <div sx={{ mx: 2 }}> |</div>
         <Styled.a
@@ -74,24 +82,13 @@ const Footer = () => {
         </Styled.a>
 
         <div sx={{ mx: 2 }}> |</div>
-
         <Styled.a
           aria-label="Details"
           sx={{ ml: 0 }}
-          href="http://www.ucd.ie"
+          href="https://ieee.org"
           target="_blank"
         >
-          UCD
-        </Styled.a>
-        <div sx={{ mx: 2 }}> |</div>
-
-        <Styled.a
-          aria-label="Details"
-          sx={{ ml: 0 }}
-          href="http://nsbm.ac.lk"
-          target="_blank"
-        >
-          NSBM
+          IEEE
         </Styled.a>
       </Flex>
     </ThemeFooter>
