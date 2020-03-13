@@ -8,9 +8,10 @@ module.exports = {
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitleAlt: `ManoRanjana - Works for a vision`,
-    title: `Gatsby`,
+    title: `ManoRanjana`,
     siteUrl: `https://manoranjana.me`,
-    description: `Welcome to the official website of Manoranjana De Silva. This is the v0.1 release of the web application. More expereiences will be brought in the near future.`
+    sitedescription: `Welcome to the official website of Manoranjana De Silva. This is the v0.1 release of the web application. More expereiences will be brought in the near future.`,
+    siteLanguage: `en-us`
   },
   plugins: [
     {
@@ -29,8 +30,8 @@ module.exports = {
       options: {
         name: `Offcial Blog - ManoRanjana`,
         short_name: `Mano`,
-        description: `Welcome to the official blog of Manoranjana`,
-        start_url: `/`,
+        description: `Welcome to the official website of Manoranjana De Silva. This is the v0.1 release of the web application. More expereiences will be brought in the near future.`,
+        start_url: `https://manoranjana.me`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
         display: `standalone`,
